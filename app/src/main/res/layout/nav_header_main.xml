@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/fondo_cabecera"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/perfil_cabecera"
+            app:civ_border_color="@color/blanco"
+            app:civ_border_width="1dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre_cabecera"
+            android:layout_alignLeft="@+id/perfil_cabecera"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:elevation="4dp"
+            android:text="Frutica"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/perfil_cabecera"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <!--<TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/perfil_cabecera"
+            android:layout_below="@id/nombre_cabecera"
+            android:text="Heladeria Frutica" />-->
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "953659900580",
+    "firebase_url": "https://helados-111f8.firebaseio.com",
+    "project_id": "helados-111f8",
+    "storage_bucket": "helados-111f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953659900580:android:b4f02a56ec4652dd",
+        "android_client_info": {
+          "package_name": "projects.carosdrean.xyz.heladosvendedor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953659900580-d075947h4j9be29l29bc10g81vd9eu48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projects.carosdrean.xyz.heladosvendedor",
+            "certificate_hash": "39f6ff7ea5de8f0180ee0f4aa263444a8eb6a03a"
+          }
+        },
+        {
+          "client_id": "953659900580-9mevpiitcjn335i0bkcv64v3ntnrn8lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWoh63AM3Q32_dE8VvPwtcXkDAUbjXii0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953659900580-9mevpiitcjn335i0bkcv64v3ntnrn8lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953659900580:android:b5fbbad6c7632fb6",
+        "android_client_info": {
+          "package_name": "projects.carosdrean.xyz.helados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953659900580-kc2eip87jg8slsl07avbor30nb2f73ar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projects.carosdrean.xyz.helados",
+            "certificate_hash": "39f6ff7ea5de8f0180ee0f4aa263444a8eb6a03a"
+          }
+        },
+        {
+          "client_id": "953659900580-9mevpiitcjn335i0bkcv64v3ntnrn8lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWoh63AM3Q32_dE8VvPwtcXkDAUbjXii0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953659900580-9mevpiitcjn335i0bkcv64v3ntnrn8lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
